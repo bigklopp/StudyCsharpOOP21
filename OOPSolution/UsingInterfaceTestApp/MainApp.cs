@@ -5,7 +5,7 @@ namespace UsingInterfaceTestApp
 {
     class MainApp
     {
-        // 혼자 독학하는게 시간 낭비가 아니겠다. 하나도 못 알아 듣잖아.
+        // 
         static void Main(string[] args)
         {
             
