@@ -16,11 +16,21 @@ namespace DelegateChainApp
 
             */
             Calculate calc;
-            calc = delegate (int a, int b)
+            // 무명함수 표현 1
+            /*calc = delegate (int a, int b)
             {
                 return a + b;
-            };
+            };*/
+
+            calc = (a, b) => a + b;
+
             Console.WriteLine(calc(3, 4));
+            Console.WriteLine(calc(2, 3));
+            Console.WriteLine(calc(2, 3));
+            Console.WriteLine(calc(2, 3));
+            Console.WriteLine(calc(2, 3));
+            Console.WriteLine(calc(2, 3));
+            Console.WriteLine(calc(2, 3));
 
         }
     }
