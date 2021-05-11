@@ -17,23 +17,8 @@ namespace CodingTest2_4_210511
             dic["Blue"] = "파란색";
             dic["Navy"] = "남색";
             dic["Purple"] = "보라색";
-            dic[1] = "빨간색";
-            dic[2] = "주황색";
-            dic[3] = "노란색";
-            dic[4] = "초록색";
-            dic[5] = "파란색";
-            dic[6] = "남색";
-            dic[7] = "보라색";
 
-
-            Console.Write("무지개 색은 ");
-            for (int i = 1; i <= 7; i++)
-            {
-                Console.Write($"{dic[i]}, ");
-            }
-            Console.WriteLine("입니다.\n");
-
-            //Console.WriteLine($"무지개 색은 {dic["Red"]}, {dic["Orange"]}, {dic["Yellow"]}, {dic["Green"]}, {dic["Blue"]}, {dic["Navy"]}, {dic["Purple"]}, 입니다.\n");
+            Console.WriteLine($"무지개 색은 {dic["Red"]}, {dic["Orange"]}, {dic["Yellow"]}, {dic["Green"]}, {dic["Blue"]}, {dic["Navy"]}, {dic["Purple"]}, 입니다.\n");
             
             Console.WriteLine("Key와 Value 확인");
             
