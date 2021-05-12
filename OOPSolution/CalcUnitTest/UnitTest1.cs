@@ -25,7 +25,7 @@ namespace CalcUnitTest
             Assert.AreEqual(expected, result);
 
             mine.OldMethod();
-            mine.NewMethod();
+            mine.NewMethod();//adsfasdfasdfsadfdfsd
         }
     }
 }
